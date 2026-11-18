@@ -1,17 +1,23 @@
-# ColombiaStyle — Store & Sales Management System (Java)
+# ColombiaStyle — Store & Sales Management System (JavaFX)
 
-Modular console-based application developed in Java (Maven) to manage product catalogs, shopping cart operations, and sales billing for a Colombian retail store.
+Desktop application developed in Java and JavaFX (Maven) to manage product catalogs, inventory control, shopping cart operations, and sales billing for a Colombian clothing and accessories store.
 
-## Project Architecture
-- **`ColombiaStyle.java`:** Main application entry point, interactive console menus, and user flow control.
-- **`Producto.java`:** Data model representing store items, pricing, and inventory attributes.
-- **`ItemCarrito.java`:** Shopping cart line-item logic handling product quantities and subtotal calculations.
+## Key Features
+- **Role-Based Access:** Separate workflows for **Customers** (*Ingresar como cliente*) to browse items and manage their shopping cart, and **Store Owners** (*Ingresar como dueño*) to manage inventory and product pricing.
+- **Object-Oriented Architecture:** Modular design separating domain models (`Producto.java`, `ItemCarrito.java`) from application and UI logic (`ColombiaStyle.java`).
+- **Input Validation & Stability:** Form validation and `try-catch` exception handling to prevent runtime errors during transactions.
 
-## Key Features & Concepts Applied
-- **Object-Oriented Programming (OOP):** Encapsulation with private attributes, constructors, getters/setters, and modular separation between domain models and main execution logic.
-- **Cart & Billing Logic:** Dynamic item addition, quantity tracking, and automated purchase total calculation.
-- **Input Validation & Stability:** Console input checks and `try-catch` exception handling to prevent runtime errors.
+## Application Preview
+
+### Role Selection Screen
+![Main Screen](./inicio_colombiastyle.png)
+
+### Customer View (Catalog & Shopping Cart)
+![Customer View](./vista_cliente.png)
+
+### Owner View (Inventory Management)
+![Owner View](./vista_dueno.png)
 
 ## Technologies
-- Java (JDK) & Apache Maven (`pom.xml`)
-- Apache NetBeans / Visual Studio Code
+- Java (JDK) & JavaFX
+- Apache Maven (`pom.xml`)
