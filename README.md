@@ -24,13 +24,3 @@ Desktop application developed in Java and JavaFX (Maven) to manage product catal
 ## Technologies
 - Java (JDK) & JavaFX
 - Apache Maven (`pom.xml`)
-
-### Customer View (Catalog & Shopping Cart)
-![Customer View](./vista_cliente.png)
-
-### Owner View (Inventory Management)
-![Owner View](./vista_dueno.png)
-
-## Technologies
-- Java (JDK) & JavaFX
-- Apache Maven (`pom.xml`)
